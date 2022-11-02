@@ -4,6 +4,8 @@ import java.util.List;
 import javax.persistence.EntityManager;
 import javax.persistence.Persistence;
 import javax.persistence.TypedQuery;
+import lucio.sport.model.payLoad.restituisceGiocatore;
+import lucio.sport.model.payLoad.restituisceSquadra;
 
 /**
  *
@@ -12,22 +14,9 @@ import javax.persistence.TypedQuery;
 public class Sport {
 
     public static void main(String[] args) {
-        EntityManager db = db();
-        try {
-            TypedQuery<Partita> selectPartite
-                    = db.createNamedQuery("Partita.findAll", Partita.class);
-            List<Partita> listPartite = selectPartite.getResultList();
-            for (Partita p : listPartite) {
-                System.out.println("Giocatore: "+ p.getIdGiocatore().getNome()  );
-            }
-        } finally {
-            db.close();
-        }
+
+        restituisceGiocatore.getGiocatore();
+        restituisceSquadra.getSquadra();
     }
 
-    public static EntityManager db() {
-        return Persistence.createEntityManagerFactory("partita")
-                .createEntityManager(); // createEntityManager è la connessione al DB
-    }
-    
 }

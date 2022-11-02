@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package lucio.sport;
 
 import java.io.Serializable;
@@ -22,7 +18,7 @@ import javax.persistence.TemporalType;
 
 /**
  *
- * @author WS2
+ * @author Francesco
  */
 @Entity
 @Table(name = "partite")
