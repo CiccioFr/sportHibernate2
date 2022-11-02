@@ -1,0 +1,11 @@
+target/classes/.netbeans_automatic_build
+target/classes/META-INF/persistence.xml
+target/classes/lucio/sport/Giocatore.class
+target/classes/lucio/sport/Partita_.class
+target/classes/lucio/sport/Partita.class
+target/classes/lucio/sport/Sport.class
+target/classes/lucio/sport/Squadra_.class
+target/classes/lucio/sport/Squadra.class
+target/classes/lucio/sport/model/payLoad/InserireNelDB.class
+target/classes/lucio/sport/model/payLoad/restituisceGiocatore.class
+target/classes/lucio/sport/model/payLoad/restituisceSquadra.class
