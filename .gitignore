@@ -9,3 +9,4 @@ target/classes/lucio/sport/Squadra.class
 target/classes/lucio/sport/model/payLoad/InserireNelDB.class
 target/classes/lucio/sport/model/payLoad/restituisceGiocatore.class
 target/classes/lucio/sport/model/payLoad/restituisceSquadra.class
+target/classes/lucio/sport/*.class
